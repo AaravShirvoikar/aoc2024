@@ -1,16 +1,13 @@
-use std::{fs, i32};
+use std::fs;
 
 pub fn part1() {
     let input = fs::read_to_string("./inputs/input02").expect("no file");
     let reports: Vec<Vec<i32>> = input
         .lines()
         .map(|line| {
-            let curr: Vec<i32> = line
-                .split_whitespace()
+            line.split_whitespace()
                 .map(|n| n.parse::<i32>().unwrap())
-                .collect();
-
-            curr
+                .collect()
         })
         .collect();
 
@@ -50,12 +47,9 @@ pub fn part2() {
     let reports: Vec<Vec<i32>> = input
         .lines()
         .map(|line| {
-            let curr: Vec<i32> = line
-                .split_whitespace()
+            line.split_whitespace()
                 .map(|n| n.parse::<i32>().unwrap())
-                .collect();
-
-            curr
+                .collect()
         })
         .collect();
 
