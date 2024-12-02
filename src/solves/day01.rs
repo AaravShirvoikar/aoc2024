@@ -23,7 +23,7 @@ pub fn part1() {
         sum += (n1 - n2).abs();
     }
 
-    println!("solution 1: {}", sum);
+    println!("{}", sum);
 }
 
 pub fn part2() {
@@ -42,5 +42,5 @@ pub fn part2() {
     });
 
     let sum: i32 = l1.iter().map(|n| n * counts.get(n).unwrap_or(&0)).sum();
-    println!("solution 2: {}", sum);
+    println!("{}", sum);
 }
