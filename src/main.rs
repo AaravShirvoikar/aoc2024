@@ -11,6 +11,8 @@ fn main() {
         "1b" => solves::day01::part2(),
         "2a" => solves::day02::part1(),
         "2b" => solves::day02::part2(),
+        "3a" => solves::day03::part1(),
+        "3b" => solves::day03::part2(),
         _ => println!("invalid day"),
     }
 }
