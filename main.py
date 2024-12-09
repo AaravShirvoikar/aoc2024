@@ -7,6 +7,7 @@ from solves import day05
 from solves import day06
 from solves import day07
 from solves import day08
+from solves import day09
 
 def main():
     if len(sys.argv) < 2:
@@ -32,6 +33,8 @@ def main():
         "7b": day07.solve2,
         "8a": day08.solve1,
         "8b": day08.solve2,
+        "9a": day09.solve1,
+        "9b": day09.solve2,
     }
 
     if day in solns:
