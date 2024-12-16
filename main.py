@@ -53,6 +53,7 @@ def main():
         "14b": day14.solve2,
         "15a": day15.solve1,
         "16a": day16.solve1,
+        "16b": day16.solve2,
     }
 
     if day in solns:
