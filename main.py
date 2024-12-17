@@ -15,6 +15,7 @@ from solves import day13
 from solves import day14
 from solves import day15
 from solves import day16
+from solves import day17
 
 def main():
     if len(sys.argv) < 2:
@@ -54,6 +55,7 @@ def main():
         "15a": day15.solve1,
         "16a": day16.solve1,
         "16b": day16.solve2,
+        "17a": day17.solve1,
     }
 
     if day in solns:
